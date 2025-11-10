@@ -1,16 +1,80 @@
-# Python cache
+# ------------------------
+# Python
+# ------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+pip-wheel-metadata/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual envs
 .venv/
-env/
 venv/
+env/
 
-# Local auth files (DO NOT COMMIT)
+# Notebooks
+.ipynb_checkpoints/
+
+# ------------------------
+# Auth / Secrets (DO NOT COMMIT)
+# ------------------------
+# Google OAuth local creds/tokens
 credentials.json
 token.json
+token.pickle
 
-# OS files
+# Common secret formats
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.der
+*.keystore
+*.pkcs12
+
+# Service accounts / misc secrets (name-based to avoid ignoring all JSON)
+*service-account*.json
+*sa-key*.json
+*oauth-client*.json
+secrets/
+secrets/**
+
+# ------------------------
+# App output & local data
+# ------------------------
+SharedBackup/
+*.log
+logs/
+tmp/
+temp/
+*.sqlite
+*.sqlite3
+*.db
+
+# ------------------------
+# Editors / OS
+# ------------------------
+# macOS / Windows
 .DS_Store
+.AppleDouble
+.LSOverride
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code / JetBrains
+.vscode/
+.idea/
