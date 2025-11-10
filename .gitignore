@@ -78,3 +78,50 @@ Desktop.ini
 # VS Code / JetBrains
 .vscode/
 .idea/
+# --- Extra Python/dev caches ---
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.pyre/
+.hypothesis/
+__pypackages__/           # PEP 582 local packages
+
+# Coverage & test artifacts
+.coverage.*
+coverage.xml
+.pytest_cache/            # (already present, ok to keep both)
+
+# Poetry / Pipenv / uv
+.poetry-cache/
+pipenv*lock
+.venv*/                   # covers .venv, .venv-prod, etc.
+.python-version
+
+# Direnv
+.envrc
+.direnv/
+
+# VSCode local state (keeps settings.json in repo if you want)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Node (if the project touches JS tooling)
+node_modules/
+npm-debug.log*
+yarn*.log
+pnpm-lock.yaml
+bun.lockb
+
+# Archives & temp blobs
+*.tar
+*.gz
+*.zip
+*.7z
+*.bak
+*.tmp
+*.swp
+*.swo
