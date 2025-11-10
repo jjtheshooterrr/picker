@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Local auth files (DO NOT COMMIT)
+credentials.json
+token.json
+
+# OS files
+.DS_Store
+Thumbs.db
