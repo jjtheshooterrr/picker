@@ -34,3 +34,13 @@ Copy code
 
 > ⚠️ Never commit `credentials.json` or `token.json` — they contain private keys.
 
+cd "C:\Users\jaxon\lukework"
+
+# Just list what's inside the shared folder
+python download_shared_folder.py --list 1QmcPpP9XNJzB3ZiMdmigdOZT_JWMHkPB
+
+# Try a few downloads first
+python download_shared_folder.py --max 3 1QmcPpP9XNJzB3ZiMdmigdOZT_JWMHkPB
+
+# Then download everything
+python download_shared_folder.py 1QmcPpP9XNJzB3ZiMdmigdOZT_JWMHkPB
