@@ -19,7 +19,7 @@ markdown
 Copy code
 
 2\. Put your `credentials.json` in the same folder.
-
+in this format {"installed":{"client_id":"85654645-ac9iip19lfjj7pniopghgfhgf.apps.googleusercontent.com","project_id":"gogolepicker","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"fgfgzdX-fhgfggfk_ghfxhghxfhL-qghh","redirect_uris":["http://localhost"]}}
 3\. Run:
 
 python download\_shared\_folder.py <FOLDER\_ID>
